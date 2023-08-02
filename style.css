@@ -6,13 +6,11 @@ html {
   background: #fff;
 }
 
-img {
-  margin-top: 120px;
-  padding: 0;
-  height: 150px;
-}
-
 #page_links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10%;
   margin: 15px;
   text-align: right;
   font-family: arial, sans-serif;
@@ -24,6 +22,12 @@ img {
   padding: 5px;
 }
 
+#main_elements img {
+  margin-top: 120px;
+  padding: 0;
+  height: 150px;
+  width: auto;
+}
 #main_elements #input_search {
   padding-left: 15px;
   padding-right: 15px;
@@ -51,6 +55,35 @@ img {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+img {
+  width: 60px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#advance_elements {
+  font-family: arial, sans-serif;
+  margin-top: 50px;
+  font-size: large;
+}
+#advance_elements #advance_search_heading {
+  color: #d93025;
+  font-size: 30px;
+  margin: 25px 35px;
+}
+#advance_elements h2 {
+  font-weight: lighter;
+  margin-left: 35px;
+}
+#advance_elements .labels {
+  margin-left: 35px;
+  padding: 50px;
+}
+#advance_elements input {
+  height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
