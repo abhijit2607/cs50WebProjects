@@ -16,10 +16,18 @@ html {
   font-family: arial, sans-serif;
 }
 #page_links #image_link {
+  color: rgba(0, 0, 0, 0.87);
   padding: 5px;
+  text-decoration: none;
 }
 #page_links #advance_link {
+  color: rgba(0, 0, 0, 0.87);
   padding: 5px;
+  text-decoration: none;
+}
+#page_links #page_link {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
 }
 
 #main_elements img {
@@ -34,6 +42,7 @@ html {
   font-size: large;
   height: 50px;
   width: 600px;
+  border: 1px solid;
   border-radius: 50px;
   font-family: arial, sans-serif;
   line-height: 22px;
@@ -80,10 +89,27 @@ img {
 }
 #advance_elements .labels {
   margin-left: 35px;
-  padding: 50px;
 }
-#advance_elements input {
-  height: 25px;
+#advance_elements .inputs {
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  border-top: 1px solid #c0c0c0;
+  font-size: 15px;
+  height: 30px;
+  width: 500px;
+  text-align: left;
+  padding: 1px 8px;
+  margin-bottom: 10px;
+}
+#advance_elements #advance_submit {
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  height: 35px;
+  width: auto;
+  margin-left: 679px;
+  cursor: pointer;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

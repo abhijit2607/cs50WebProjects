@@ -5,35 +5,83 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <!--*Main Google search page link -->
         <div id="page_links">
-            <a class="page_link" href="index.html">Search</a>
+            <a id="page_link" href="index.html">Search</a>
         </div>
+        <!--*Google logo -->
         <img
             src="D:\CS50 Web Programming PROJECTS\Project 0 SEARCH\Images\googlelogo_color_272x92dp.png"
             alt="Google"
         />
+        <!--*Consists four Google advance search bars and advance search button along with Advance Search Heading -->
         <div id="advance_elements">
             <label id="advance_search_heading">Advance Search</label>
-            <hr> <!--Horizontal ruler/line-->
+            <hr />
+            <!--Horizontal ruler/line-->
             <h2>Find pages with...</h2>
             <form action="https://www.google.com/search" method="get">
-                <label class="labels" for="these_words">all these words:</label>
-                <input type="text" id="these_words" name="as_q" />
+                <label
+                    style="padding-right: 125px"
+                    class="labels"
+                    for="these_words"
+                    >all these words:</label
+                >
+                <input
+                    class="inputs"
+                    type="search"
+                    id="these_words"
+                    name="as_q"
+                />
                 <br />
                 <!--Line break-->
-                <label class="labels" for="exact_word">this exact word or phrase:</label>
-                <input type="text" id="exact_word" name="as_epq" />
+                <label
+                    style="padding-right: 44px"
+                    class="labels"
+                    for="exact_word"
+                    >this exact word or phrase:</label
+                >
+                <input
+                    class="inputs"
+                    type="search"
+                    id="exact_word"
+                    name="as_epq"
+                />
                 <br />
                 <!--Line break-->
-                <label class="labels" for="any_words">any of these words:</label>
-                <input type="text" id="any_words" name="as_oq" />
+                <label
+                    style="padding-right: 94px"
+                    class="labels"
+                    for="any_words"
+                    >any of these words:</label
+                >
+                <input
+                    class="inputs"
+                    type="search"
+                    id="any_words"
+                    name="as_oq"
+                />
                 <br />
                 <!--Line break-->
-                <label class="labels" for="none_words">none of these words:</label>
-                <input type="text" id="none_words" name="as_eq" />
+                <label
+                    style="padding-right: 83px"
+                    class="labels"
+                    for="none_words"
+                    >none of these words:</label
+                >
+                <input
+                    class="inputs"
+                    type="search"
+                    id="none_words"
+                    name="as_eq"
+                />
                 <br />
                 <!--Line break-->
-                <input type="submit" value="Advance Search" />
+                <input
+                    id="advance_submit"
+                    type="submit"
+                    value="Advance Search"
+                />
             </form>
         </div>
     </body>
