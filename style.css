@@ -1,0 +1,56 @@
+body,
+html {
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+img {
+  margin-top: 120px;
+  padding: 0;
+  height: 150px;
+}
+
+#page_links {
+  margin: 15px;
+  text-align: right;
+  font-family: arial, sans-serif;
+}
+#page_links #image_link {
+  padding: 5px;
+}
+#page_links #advance_link {
+  padding: 5px;
+}
+
+#main_elements #input_search {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: large;
+  height: 50px;
+  width: 600px;
+  border-radius: 50px;
+  font-family: arial, sans-serif;
+  line-height: 22px;
+  margin-bottom: 8px;
+  overflow-x: hidden;
+}
+#main_elements .submit_buttons {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*# sourceMappingURL=style.css.map */

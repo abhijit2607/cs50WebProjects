@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="page_links">
+            <a class="page_link" href="index.html">Search</a>
+        </div>
+        <div id="main_elements">
+            <center>
+                <img
+                    src="D:\CS50 Web Programming PROJECTS\Project 0 SEARCH\Images\googlelogo_color_272x92dp.png"
+                    alt="Google"
+                />
+                <form action="https://www.google.com/search" method="get">
+                    <input type="hidden" name="tbm" value="isch" />
+                    <input
+                        maxlength="2048"
+                        id="input_search"
+                        type="search"
+                        name="q"
+                    />
+                    <br />
+                    <!--Line break-->
+                    <input class="submit_buttons" type="submit" value="Google Search" />
+                </form>
+            </center>
+        </div>
+    </body>
+</html>
