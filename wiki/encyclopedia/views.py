@@ -10,14 +10,15 @@ def index(request):
         "entries": util.list_entries()
     })
 
+
 def entry(request, name):
     try:
         return render(request, "encyclopedia/entry.html", {
-            "title" : name.upper(),
-            "html" : markdown(util.get_entry(name))
+            "title": name.upper(),
+            "html": markdown(util.get_entry(name))
         })
     except TypeError:
         return render(request, "encyclopedia/entry.html", {
-            "title" : "ERROR",
-            "html" : "<h1>ERROR!!! PAGE DOES NOT EXIST</h1>"
+            "title": "ERROR",
+            "html": "<h1>ERROR!!! PAGE DOES NOT EXIST</h1>"
         })
