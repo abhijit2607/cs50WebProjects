@@ -1,0 +1,115 @@
+body,
+html {
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+#page_links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10%;
+  margin: 15px;
+  text-align: right;
+  font-family: arial, sans-serif;
+}
+#page_links #image_link {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 5px;
+  text-decoration: none;
+}
+#page_links #advance_link {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 5px;
+  text-decoration: none;
+}
+#page_links #page_link {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+#main_elements img {
+  margin-top: 120px;
+  padding: 0;
+  height: 150px;
+  width: auto;
+}
+#main_elements #input_search {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: large;
+  height: 50px;
+  width: 600px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-family: arial, sans-serif;
+  line-height: 22px;
+  margin-bottom: 8px;
+  overflow-x: hidden;
+}
+#main_elements .submit_buttons {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+img {
+  width: 60px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#advance_elements {
+  font-family: arial, sans-serif;
+  margin-top: 50px;
+  font-size: large;
+}
+#advance_elements #advance_search_heading {
+  color: #d93025;
+  font-size: 30px;
+  margin: 25px 35px;
+}
+#advance_elements h2 {
+  font-weight: lighter;
+  margin-left: 35px;
+}
+#advance_elements .labels {
+  margin-left: 35px;
+}
+#advance_elements .inputs {
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  border-top: 1px solid #c0c0c0;
+  font-size: 15px;
+  height: 30px;
+  width: 500px;
+  text-align: left;
+  padding: 1px 8px;
+  margin-bottom: 10px;
+}
+#advance_elements #advance_submit {
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  height: 35px;
+  width: auto;
+  margin-left: 679px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
