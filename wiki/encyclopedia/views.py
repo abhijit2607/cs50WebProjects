@@ -81,6 +81,7 @@ def search(request):
 
 def new_page(request):
     entries = util.list_entries()
+
     if request.method == "POST":
         form = NewEntry(request.POST)
         if form.is_valid():
@@ -104,7 +105,6 @@ def new_page(request):
             return render(request, "encyclopedia/new_page.html", {
                 "form": form
             })
-
     else:
         return render(request, "encyclopedia/new_page.html", {
             "form": NewEntry()
