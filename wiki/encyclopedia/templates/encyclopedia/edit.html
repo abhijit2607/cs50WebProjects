@@ -1,14 +1,13 @@
 {% extends "encyclopedia/layout.html" %}
 
 {% block title %}
-{{title}}
+EDIT PAGE
 {% endblock %}
 
 {% block body %}
-{{ html|safe|escape }}
-<form action="{% url 'encyclopedia:edit-page' %}" method="POST">
+<h1>Edit The Existing Page</h1>
+<form action="{% url 'encyclopedia:save-entry' %}" method="post">
     {% csrf_token %}
-    <input type="hidden" value="{{title}}" name="entry_title">
     {% for field in form %}
     {{field.label_tag}} {{field}}
     <br>
